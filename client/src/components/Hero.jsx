@@ -8,8 +8,8 @@ const Hero = () => {
       <h1 className='font-playfair text-2xl md:text-5xl md:text-[56px] md:leading-[56px] font-bold md:font-extrabold
        max-w-xl mt-4'> Discover Your Perfect Gateway Destination</h1>
       <p>
-        Explore our curated selection of hotels, from luxury resorts to cozy retreats. 
-        Book your dream stay today and create unforgettable memories.
+        Explore our curated selection of hotels, from luxury resorts to cozy retreats.<br/>
+        Book your dream stay today.
       </p>
     </div>
   )
