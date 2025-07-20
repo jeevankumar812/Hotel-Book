@@ -1,6 +1,6 @@
 import React
  from "react";
-const App = () => {
+const Navbar = () => {
     const navLinks = [
         { name: 'Home', path: '/' },
         { name: 'Products', path: '/' },
@@ -91,3 +91,4 @@ const App = () => {
         </div>
     );
 }
+export default Navbar;
