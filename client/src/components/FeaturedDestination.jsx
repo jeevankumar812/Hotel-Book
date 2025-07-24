@@ -5,7 +5,7 @@ const FeaturedDestination = () => {
     <div>
       <div>
         {roomsDummyData.slice(0,4).map((room,index)=>
-        <HotelCard key={room.id}/>
+        <HotelCard key={room.id} room={room} index={index}/>
         )}
       </div>
     </div>
